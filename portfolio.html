@@ -32,12 +32,20 @@
       <ul class="header-contacts-list list">
         <li class="header-contacts-list-item">
           <address class="header-address">
-            <a class="header-contacts-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-contacts-mail link" href="mailto:info@devstudio.com">
+              <svg class="header-contacts-mail-icon" width="16px" height="16px">
+                <use href="./images/icons/sprite.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a>
           </address>
         </li>
         <li class="header-contacts-list-item">
           <address class="header-address">
-            <a class="header-contacts-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-contacts-phone link" href="tel:+380961111111">
+              <svg class="header-contacts-phone-icon" width="16px" height="16px">
+                <use href="./images/icons/sprite.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a>
           </address>
         </li>
       </ul>
@@ -230,22 +238,43 @@
         <b class="join">присоединяйтесь</b>
         <ul class="socials-list list">
           <li class="socials-list-item">
-            <a class="socials-list-item-link" href="" aria-label="иконка инстаграма"><img
-                src="./images/icons/instagram.svg" alt="иконка инстаграма" /></a>
+            <a class="socials-list-item-link" href="" aria-label="иконка инстаграма">
+              <svg class="socials-list-item-link-icon">
+                <use href="./images/icons/sprite.svg#instagram"></use>
+              </svg>
+            </a>
           </li>
           <li class="socials-list-item">
-            <a class="socials-list-item-link" href="" aria-label="иконка твиттера"><img src="./images/icons/twitter.svg"
-                alt="иконка твиттера" /></a>
+            <a class="socials-list-item-link" href="" aria-label="иконка твиттера"><svg
+                class="socials-list-item-link-icon">
+                <use href="./images/icons/sprite.svg#twitter"></use>
+              </svg></a>
           </li>
           <li class="socials-list-item">
-            <a class="socials-list-item-link" href="" aria-label="иконка фейсбука"><img
-                src="./images/icons/facebook.svg" alt="иконка фейсбука" /></a>
+            <a class="socials-list-item-link" href="" aria-label="иконка фейсбука"><svg
+                class="socials-list-item-link-icon">
+                <use href="./images/icons/sprite.svg#facebook"></use>
+              </svg></a>
           </li>
           <li class="socials-list-item">
-            <a class="socials-list-item-link" href="" aria-label="иконка линкедина"><img
-                src="./images/icons/linkedin.svg" alt="иконка линкедина" /></a>
+            <a class="socials-list-item-link" href="" aria-label="иконка линкедина"><svg
+                class="socials-list-item-link-icon">
+                <use href="./images/icons/sprite.svg#linkedin"></use>
+              </svg></a>
           </li>
         </ul>
+      </div>
+      <div class="subscribe">
+        <b class="subscribe-title">Подпишитесь на рассылку</b>
+        <div class="input-form-wrapper">
+          <input class="input-form-mail" type="text" name="message" placeholder="E-mail" />
+          <button class="button primary">
+            Подписаться
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./images/icons/sprite.svg#send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </footer>
